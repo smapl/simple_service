@@ -11,3 +11,5 @@ pyenv install 3.6.6
 pyenvl local 3.6.6
 poetry install
 ```
+
+If you use other operating sustem or you doon user poetry, you can view all dependence.
