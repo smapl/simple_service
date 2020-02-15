@@ -7,6 +7,8 @@ authors = ["smapl <a.mustafin00@mail.ru>"]
 [tool.poetry.dependencies]
 python = "^3.6"
 flask = "^1.1.1"
+bs4 = "^0.0.1"
+requests = "^2.22.0"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.4.4"
