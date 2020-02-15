@@ -1,7 +1,7 @@
 # simple_service
 
 ## Discription 
-This simple service where you can write user id in vk, and service show you online or offline user at this moment.
+This simple service where you can write user id in vk, and service show name user.
 
 ## Work with project
 For correct work with project you need operating system `Linux` and `pyenv` with `poetry`.

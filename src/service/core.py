@@ -10,9 +10,6 @@ def find_user(user_id: str):
     resp = requests.get(url)
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    status = soup.find("div", {"class", "profile_online_lv"})
-
-    if status != "Online":
-        status = "Ofline"
-
+    status = soup.find("h2", {"class", "op_header"})
+    status = status.text
     return status
